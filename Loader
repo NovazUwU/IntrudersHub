@@ -1,3 +1,5 @@
+repeat task.wait() until game:IsLoaded() 
+task.wait(2.5)
 if getgenv().AlreadyExecutedtozx then 
     return 
 end; 
